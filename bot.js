@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-        message.reply('pong');
+    if (message.content === '!rnet') {
+        message.reply('Dames en heren, goedemiddag. Wij rijden niet.');
       }
 });
 
